@@ -1,0 +1,18 @@
+.price{
+    font-size: 40px;
+    color: red;
+}
+.prices pan{
+    font-size: 40px;
+   
+}
+.variant h3{
+    font-size: 40px;
+    color: red;
+}
+.btn{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}

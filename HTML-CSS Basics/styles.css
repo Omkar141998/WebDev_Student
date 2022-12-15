@@ -1,0 +1,86 @@
+/*Descendant selector(Space)*/
+div li{
+    color: lightblue;
+    font-size: 40px;
+}
+
+/* child selector(>)*/
+div > section{
+   background-color: red;
+}
+
+/*Adjucent siblling selectors*/
+/* the h11 tag that is adjacent sibling of p
+tag should get color red*/
+P + h1{
+    color: red;
+}
+P + P{
+    color: green;
+}
+
+/*general sibling selector*/
+p ~ p{
+    color: blue;
+}
+
+/*Pseudo class*/
+.btn{
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid red;
+}
+.item{
+    color: green;
+}
+.item:link{
+    color: royalblue;
+
+}
+.item:visited{
+    color: red;
+}
+
+.item{
+    color: pink;
+}
+
+.item:active{
+    color: blueviolet
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* pseudo elements*/
+
+.task::first-letter{
+     color: red;
+}
+
+.task::first-line{
+    color: green;
+}
+
+::marker{
+    color: green;
+}
+
+/*Attributes name*/
+input[type="text"]{
+    color: red;
+    font-size:20px;
+}
+
+a[target="_blank"]{
+    background-color: yellow;
+}
